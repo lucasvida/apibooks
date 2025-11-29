@@ -11,5 +11,5 @@ app.use(express.json());
 app.use(helmet());
 app.use('/', mainRoute);
 app.listen(port, () => {
-    console.log(`Server is running on port ${port} - http://localhost:${port}`);
+    console.log(`Servidor Ativo na porta ${port} - http://localhost:${port}`);
 });
